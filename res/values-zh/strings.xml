@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">简单记事本</string>
+    <string name="menu_note_listview_header_title">功能</string>
+    <string name="menu_note_listview_delete">删除</string>
+    <string name="menu_note_listview_send">短信发送</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="check_drawline">画线</string>
+    <string name="alarm_setting_title">设置闹钟</string>
+    <string name="positive_ok">确认</string>
+    <string name="negative_cancel">取消</string>
+    <string name="neutral_delete">删除</string>
+    <string name="notehasbeensaved">记事已经保存！</string>
+    
+    <string name="about_content">简单记事本\n由Viyu开发\n版本：Beta 1.0\n邮箱：appdev_viyu@qq.com\n欢迎提bug和意见！\n\n
+        	使用指南：\n\n
+        	新建记事：在主页面，点击下方的图标新建一个记事。\n\n
+        	 保存：按手机的back键或点击左上角的向左箭头保存编辑内容，如果直接按了home键，当前编辑内容也会自动保存。\n\n 
+        	切换字体颜色：点击右上第一个笔形图标切换字体颜色，目前支持白色、粉色、黄色，可根据记事性质来选择颜色。字体颜色是保存到文件并会显示在记事列表中的。\n\n 
+        	设置提醒：点击右上第二个闹钟图标，会弹出对话框设置提醒时间。 \n\n
+        	画线：点击右上最右侧的画线按钮选择是否画线。\n\n
+        	删除：在记事列表上选中一行长按弹出菜单，选择\"删除\"，会直接删除记事。 \n\n
+        	短信发送：同上，选择菜单中的\"短信发送\"将会把当前记事内容发送到系统的短信发送界面。\n\n</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="transparent">#00000000</color>
+    
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FFFFC1C1</color>
+    <color name="yellow">#FFEEEE00</color>
+    
+    <color name="white_half">#78FFFFFF</color>
+    <color name="pink_half">#78FFC1C1</color>
+    <color name="yellow_half">#78EEEE00</color>
+    
+</resources>

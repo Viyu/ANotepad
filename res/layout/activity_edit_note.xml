@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NoteEditUIStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="3dip"
+    android:id="@+id/editnotearootid"
+    tools:context=".EditNoteActivity" >
+
+    <LinearLayout
+        style="@style/EditBarStyle"
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/BackToMainButton"
+                style="@style/ButtonStyle.BackToMainButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="backToMain" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <com.android.anotepad.viyu.components.MultiColorButton
+                android:id="@+id/TextColorButton"
+                style="@style/ButtonStyle.ColorButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dip"
+                android:onClick="nextTextColor" />
+
+            <Button
+                android:id="@+id/AlarmButton"
+                style="@style/ButtonStyle.AlarmButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:onClick="setAlarm" />
+
+            <CheckBox
+                android:id="@+id/DrawlineCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/DrawLineCheckStyle"
+	            android:checked="true"
+                android:onClick="drawLineCheck"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="2dip"
+                android:text="@string/check_drawline" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.android.anotepad.viyu.components.PaperEditText
+        android:id="@+id/NoteEditTextId"
+        style="@style/PaperEditStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:layout_marginTop="3dip"
+         />
+    
+</LinearLayout>

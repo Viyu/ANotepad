@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorButton">
+        <attr name="white" format="boolean" />
+        <attr name="pink" format="boolean" />
+        <attr name="yellow" format="boolean" />
+	</declare-styleable>
+</resources>

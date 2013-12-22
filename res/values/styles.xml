@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<!--App theme which applying to all the activities and views. Don't set items which are ambiguous to componments-->
+    <style name="ANotepadTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    </style>
+    
+    <style name="MainUIStyle">
+        <item name="android:background">@drawable/blackboard_black</item>
+    </style>
+    
+    <style name="NoteEditUIStyle" parent="@android:style/TextAppearance">
+		<item name="android:background">@drawable/blackboard_black</item>
+   	</style>
+   	
+    <style name="AboutUIStyle" parent="@android:style/TextAppearance">
+		<item name="android:background">@drawable/blackboard_black</item>
+   	</style>
+   	
+     <style name="AboutTextStyle">
+        <item name="android:textSize">18sp</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:gravity">top</item>
+    </style>
+    
+   	<style name="PaperEditStyle">
+   	    <item name="android:textSize">22sp</item>
+		<item name="android:lineSpacingMultiplier">1</item>
+		<item name="android:background">@color/transparent</item>
+   	</style>
+   	
+    <style name="ListView_Brief_Style">
+        <item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold|italic</item>
+    </style>
+    
+    <style name="ListView_Time_Style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    
+   	<style name="NoteBarStyle" parent="@android:style/ButtonBar">
+		 <item name="android:background">@drawable/background_buttonbar_softlight</item>
+    </style>
+    
+   	<style name="EditBarStyle">
+		 <item name="android:background">@color/transparent</item>
+    </style>
+    
+   	<style name="ButtonStyle" parent="@android:style/Widget.Button">
+   	 </style>
+   	 
+   	<style name="ButtonStyle.NewNoteButtonStyle">
+   	    <item name="android:background">@drawable/icon_text_note</item> 	
+   	 </style>
+   	 
+   	<style name="ButtonStyle.ColorButtonStyle">
+   	    <item name="android:background">@drawable/text_color_selector</item>
+   	</style>
+   	
+   	<style name="ButtonStyle.AlarmButtonStyle">
+   	    <item name="android:background">@drawable/icon_clock_70</item>
+   	</style>
+   	
+   	<style name="ButtonStyle.BackToMainButtonStyle">
+   	    <item name="android:background">@drawable/icon_back_70</item>
+   	</style>
+   	
+   	<style name="ButtonStyle.DateTimeSetButtonStyle">
+   	   
+   	</style>
+   	
+   	<style name="DrawLineCheckStyle">
+   	    <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/white</item>
+   	</style>
+   	
+</resources>
